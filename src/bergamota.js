@@ -1,7 +1,7 @@
-var Bergamota = function(args) {
+var B = function(args) {
     // Constructor
-    if (this.__proto__.constructor !== Bergamota) {
-        return new Bergamota(args);
+    if (this.__proto__.constructor !== B) {
+        return new B(args);
     }
 
     // Arguments
