@@ -5,9 +5,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["Bergamota"] = factory();
+		exports["B"] = factory();
 	else
-		root["Bergamota"] = factory();
+		root["B"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -113,25 +113,19 @@ var B = function B(args) {
 
     // Methods
 
-    // to set html
+    // To set html
     this.h = function (v) {
         document.getElementById(args).innerHTML = v;
     };
-    // to set value
+    // To set value
     this.v = function (v) {
         document.getElementById(args).value = v;
     };
-    // to set text
+    // To set text
     this.t = function (v) {
         document.getElementById(args).innerText = v;
     };
 };
-
-/* class B {
-    msg(m) {
-        alert(m);
-    }
-} */
 
 module.exports = B;
 

@@ -13,7 +13,7 @@ module.exports = {
     output: {
         filename: production ? 'bergamota.min.js' : 'bergamota.js',
         path: path.resolve(__dirname, 'dist'),
-        library: 'Bergamota',
+        library: 'B',
         libraryTarget: 'umd',
         globalObject: 'this'
     },
