@@ -9,16 +9,18 @@ var B = function(args) {
 
     // Methods
 
-    // to set html
+    // To set html
     this.h = function(v) {
-        document.getElementById(args).innerHTML = v
+        document.getElementById(args).innerHTML = v;
     }
-    // to set value
+    // To set value
     this.v = function(v) {
-        document.getElementById(args).value = v
+        document.getElementById(args).value = v;
     }
-    // to set text
+    // To set text
     this.t = function(v) {
-        document.getElementById(args).innerText = v
+        document.getElementById(args).innerText = v;
     }
 };
+
+module.exports = B;

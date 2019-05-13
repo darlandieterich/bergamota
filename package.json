@@ -10,8 +10,7 @@
     "tyni",
     "auxiliary"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -28,8 +27,8 @@
     "phantomjs-prebuilt": "^2.1.4",
     "sinon": "^7.1.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^3.1.2"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   },
   "scripts": {
     "build": "npm run build-debug && npm run build-min",
