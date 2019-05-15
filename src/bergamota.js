@@ -4,22 +4,21 @@ var B = function(args) {
         return new B(args);
     }
 
-    // Arguments
-    this.args = args;
-
+    // Query selector
+    this.element = document.querySelector(args);
+    
     // Methods
-
     // To set html
     this.h = function(v) {
-        document.getElementById(args).innerHTML = v;
+        this.element.innerHTML = v;
     }
     // To set value
     this.v = function(v) {
-        document.getElementById(args).value = v;
+        this.element.value = v;
     }
     // To set text
     this.t = function(v) {
-        document.getElementById(args).innerText = v;
+        this.element.innerText = v;
     }
 };
 
