@@ -13,5 +13,5 @@ The HTML
 
 The Call Bergamota
 ```
-B('output').t('Bergamota juice...')
+B('#output').t('Bergamota juice...')
 ```
